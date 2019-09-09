@@ -1,0 +1,25 @@
+{
+    "version": 0.1,
+    "name": "Basler",
+    "acquisition_mode": "single",
+    "acquisition_method": "software",
+    "exposure": 8000.0,
+    "frame_rate": 25.0,
+    "frame_timeout": 0.1,
+    "buffer_count": 5,
+    "pixel_format": "mono",
+    "gain": 1.0,
+    "gamma": 0.634,
+    "auto_exposure": false,
+    "auto_gain": false,
+    "resolution": {
+                    "width": 1920,
+                    "height": 1080
+                   },
+    "ROI": {
+             "x0": 0,
+             "y0": 0,
+             "x1": 1920,
+             "y1": 1080
+            }
+}
