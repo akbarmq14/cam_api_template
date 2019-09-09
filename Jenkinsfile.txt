@@ -13,10 +13,10 @@ pipeline {
 		sh 'python3 unitTest_cam_api.py' 
            }
         }
-        stage('Deploy Stage') {
+        stage('Deploy') {
             steps {
                 echo 'Deploying....'
-		echo '...Finished exec...'
+		echo '...Finished...'
             }
         }
     }
