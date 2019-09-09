@@ -19,5 +19,11 @@ pipeline {
 		echo '...Finished exec...'
             }
         }
+        stage('End') {
+            steps {
+                echo 'Ending Camera_api..'
+            }
+        }
+
     }
 }
